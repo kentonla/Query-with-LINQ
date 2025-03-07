@@ -28,10 +28,10 @@ namespace wpfbook01
 
             // get authors and ISBNs of each book they co-authored
             var authorsAndISBNs =
-               from author in dbcontext._______________
-               from book in author.____________________
-               orderby author.LastName, _____________________
-               select new { author.FirstName, author.LastName, ______________ };
+               from author in dbcontext.Authors
+               from book in author.Titles
+               orderby author.LastName, author.FirstName
+               select new { author.FirstName, author.LastName, book.ISBN };
 
             outputTextBox.AppendText("Authors and ISBNs:");
 
