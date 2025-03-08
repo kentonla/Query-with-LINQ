@@ -22,70 +22,92 @@ namespace wpfbook01
     {
         public MainWindow()
         {
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             InitializeComponent();
             // Entity Framework DbContext
             var dbcontext = new BooksEntities();
 
-            // get authors and ISBNs of each book they co-authored
-            var authorsAndISBNs =
-               from author in dbcontext.Authors
-               from book in author.Titles
-               orderby author.LastName, author.FirstName
-               select new { author.FirstName, author.LastName, book.ISBN };
+            //// get authors and ISBNs of each book they co-authored
+            //var authorsAndISBNs =
+            //   from author in dbcontext.Authors
+            //   from book in author.Titles
+            //   orderby author.LastName, author.FirstName
+            //   select new { author.FirstName, author.LastName, book.ISBN };
 
-            outputTextBox.AppendText("Authors and ISBNs:");
+            //outputTextBox.AppendText("Authors and ISBNs:");
 
-            // display authors and ISBNs in tabular format
-            foreach (var element in __________________)
-            {
-                outputTextBox.AppendText($"\r\n\t{element.__________________,-10} " +
-                   $"{element.__________,-10} {element.ISBN,-10}");
-            }
+            //// display authors and ISBNs in tabular format
+            //foreach (var element in authorsAndISBNs)
+            //{
+            //    outputTextBox.AppendText($"\r\n\t{element.FirstName,-10} " +
+            //       $"{element.LastName,-10} {element.ISBN,-10}");
+            //}
 
-            // get authors and titles of each book they co-authored
-            var authorsAndTitles =
-               from book in _______________
-               from author in __________________
-               orderby author.LastName, author.FirstName, _______________
-               select new { author.FirstName, author.LastName, _____________ };
+            // Get a list of all the titles and the authors who wrote them. Sort the result by title.
+            var titlesAndAuthors =
+               from book in dbcontext.Titles
+               from author in book.Authors
+               orderby book.Title1
+               select new { author.FirstName, author.LastName, book.Title1 };
 
-            outputTextBox.AppendText("\r\n\r\nAuthors and titles:");
+            outputTextBox.AppendText("\r\n\r\nTitles and Authors:\n");
 
             // display authors and titles in tabular format
-            foreach (var element in authorsAndTitles)
+            foreach (var element in titlesAndAuthors)
             {
-                outputTextBox.AppendText($"\r\n\t{element.__________,-10} " +
-                   $"{element.___________,-10} {element.____________}");
+                outputTextBox.AppendText($"\r\n\t{element.Title1,-10} " +
+                   $"{element.FirstName} {element.LastName}");
             }
 
-            // get authors and titles of each book 
-            // they co-authored; group by author
-            var titlesByAuthor =
-               from author in dbcontext.______________
-               orderby author.LastName, author.FirstName
+            // Get a list of all the titles and the authors who wrote them. Sort the result by title.
+            // For each title sort the authors alphabetically by last name, then first name.
+            var titlesAndAuthors2 =
+               from book in dbcontext.Titles
+               from author in book.Authors
+               orderby book.Title1, author.LastName, author.FirstName
+               select new { author.FirstName, author.LastName, book.Title1 };
+
+            outputTextBox.AppendText("\r\n\r\nAuthors and titles with authors sorted for each title:\n");
+
+            // display authors and titles in tabular format
+            foreach (var element in titlesAndAuthors2)
+            {
+                outputTextBox.AppendText($"\r\n\t{element.Title1,-10} " +
+                   $"{element.FirstName} {element.LastName}");
+            }
+
+            // Get a list of all the authors grouped by title, sorted by title;
+            // for a given title sort the author names alphabetically by last name first then first name.
+            var authorsByTitle =
+               from book in dbcontext.Titles
+               orderby book.Title1
                select new
                {
-                   Name = author.FirstName + " " +____________________,
-                   Titles =
-                     from book in _______________
-                     orderby book._____________
-                     select book.________________
+                   Title = book.Title1,
+                   Authors = from author in book.Authors
+                             orderby author.LastName, author.FirstName
+                             select author.FirstName + " " + author.LastName
+                
                };
 
-            outputTextBox.AppendText("\r\n\r\nTitles grouped by author:");
+            outputTextBox.AppendText("\r\n\r\nTitles grouped by author:\n");
 
             // display titles written by each author, grouped by author
-            foreach (var author in _________________)
+            foreach (var book in authorsByTitle)
             {
-                // display author's name
-                outputTextBox.AppendText($"\r\n\t{______________}:");
+                // display title of a book
+                outputTextBox.AppendText($"\r\n{book.Title}:");
 
-                // display titles written by that author
-                foreach (var title in ______________)
+                // display author's name
+                foreach (var author in book.Authors)
                 {
-                    outputTextBox.AppendText($"\r\n\t\t{title}");
+                    outputTextBox.AppendText($"\r\n\t{author}");
                 }
             }
+
+            //displays runtime output
+            watch.Stop();
+            outputTextBox.AppendText($"\r\n\nRuntime: {watch.ElapsedMilliseconds}ms");
         }
     }
 }

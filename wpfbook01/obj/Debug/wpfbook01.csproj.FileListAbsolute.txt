@@ -43,3 +43,26 @@ C:\Users\pnguyen\Downloads\wpfbook01\wpfbook01\obj\Debug\wpfbook01.csproj.CoreCo
 C:\Users\pnguyen\Downloads\wpfbook01\wpfbook01\obj\Debug\wpfbook01.csproj.CopyComplete
 C:\Users\pnguyen\Downloads\wpfbook01\wpfbook01\obj\Debug\wpfbook01.exe
 C:\Users\pnguyen\Downloads\wpfbook01\wpfbook01\obj\Debug\wpfbook01.pdb
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\Books.mdf
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\Books_log.ldf
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\wpfbook01.exe.config
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\wpfbook01.exe
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\wpfbook01.pdb
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\EntityFramework.dll
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\EntityFramework.xml
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.csproj.AssemblyReference.cache
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\MainWindow.g.cs
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\App.g.cs
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01_Content.g.cs
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01_MarkupCompile.cache
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01_MarkupCompile.lref
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\MainWindow.baml
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.g.resources
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.Properties.Resources.resources
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.csproj.GenerateResource.cache
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.csproj.CoreCompileInputs.cache
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.csproj.Up2Date
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.exe
+C:\Users\kento\OneDrive\Desktop\GitHub Repos\Query-with-LINQ\wpfbook01\obj\Debug\wpfbook01.pdb

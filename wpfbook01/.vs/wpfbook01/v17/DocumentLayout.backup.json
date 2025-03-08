@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|c:\\users\\kento\\onedrive\\desktop\\github repos\\query-with-linq\\wpfbook01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|c:\\users\\kento\\onedrive\\desktop\\github repos\\query-with-linq\\wpfbook01\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|solutionrelative:author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|c:\\users\\kento\\onedrive\\desktop\\github repos\\query-with-linq\\wpfbook01\\booksmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0FB7D3-E241-4ED4-9C99-BC09E790F1C5}|wpfbook01.csproj|solutionrelative:booksmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\Author.cs",
+              "RelativeDocumentMoniker": "Author.cs",
+              "ToolTip": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\Author.cs",
+              "RelativeToolTip": "Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:46:21.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\BooksModel.Context.cs",
+              "RelativeDocumentMoniker": "BooksModel.Context.cs",
+              "ToolTip": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\BooksModel.Context.cs",
+              "RelativeToolTip": "BooksModel.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:46:18.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kento\\OneDrive\\Desktop\\GitHub Repos\\Query-with-LINQ\\wpfbook01\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:27:27.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
